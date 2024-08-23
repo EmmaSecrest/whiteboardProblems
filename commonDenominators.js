@@ -39,6 +39,7 @@ function convertFrac(lst) {
     return newNumerators.map(num => `(${num},${lcm})`).join('');
 }
 
+
 function findLCM(denominators) {
     const maxDenom = Math.max(...denominators);
     let multiplier = 1;
